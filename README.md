@@ -4,7 +4,7 @@
 # Project Overview
 This challenge is associated with ```Module 6``` of **UofT's 2022-2023 Data Analytics Bootcamp**. This challenge involved the creation of two Python scripts that made use of several Python libraries and APIs. The first script created titled ```WeatherPy``` used the ```citipy``` Python library and the ```OpenWeatherMap``` API to produce plots that depicted the weather of over 500 cities of varying distances from the equator. The second script created titled ```VactionPy``` made use of the ```geoViews``` Python library and the ```Geoapify``` API to create map visualizations.
 
-# Folder Structure Breakdown
+# Repository Structure Breakdown
 The following contents may be found in this repository:
 > A folder titled ```Output Data``` that contains the output data from each analysis.
 
