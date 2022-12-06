@@ -6,30 +6,41 @@ This challenge is associated with ```Module 6``` of **UofT's 2022-2023 Data Anal
 
 # Folder Structure Breakdown
 The following contents may be found in this repository:
-> A folder titled ```VacationPy``` that contains the following files:
->> A Jupiter notebook file named ```main.ipynb``` that contains the complete code
+> A folder titled ```Output Data``` that contains the output data from each analysis.
 
+> A folder titled ```VacationPy``` that contains the following files:
+> - A Jupiter notebook file named ```main_r2.ipynb``` that contains the complete analysis code;
+> - A Python file named ```main_r2.py``` that contains the complete analysis code; and
+> - A Jupiter notebook filed named ```VacationPy.ipynb``` that contains the starter code provided.
+
+> A folder titled ```WeatherPy``` tha contains the following files:
+> - A Jupiter notebook file named ```main_r1.ipynb``` that contains the complete analysis code;
+> - A Python file named ```main_r1.py``` that contains the complete analysis code; and
+> - A Jupiter notebook filed named ```WeatherPy.ipynb``` that contains the starter code provided.
+
+- A ```.gitignore``` file to ensure that the ```api_keys.py``` file that contains the API key is kept from being shared with the public;
+- A ```README.md``` file that contains a description of this project;
 
 # Part 1: WeatherPy
 In this part of the challenge, a Python script was created to visualize the weather of over 500 cities of varying distances from the equator. The ```citipy```, ```Matplotlib```, ```NumPy```, ```pandas```, and ```scipy.stats``` Python libraries, as well as the ```OpenWeatherMap``` API were used to create a representative model of weather across cities. For this part, the ```WeatherPy.ipynb``` Jupyter notebook provided in the starter code ```ZIP``` file was used as a guide. The starter code already had generated the random geographic coordinates and the nearest city to each latitude and longitude combination. 
 
 ### Visualizing the Relationship Between Weather Variables and Latitude
 The first requirement involved creating scatter plots to showcase the relationship between different weather variables and latitude. Moreover, the ```OpenWeatherMap``` API was used to retrieve weather data from the cities list generated in the starter code. Next, a series of scatter plots were created to showcase the following relationships:
-- Latitude vs. Temperature
-- Latitude vs. Humidity
-- Latitude vs. Cloudiness
-- Latitude vs. Wind Speed
+- Latitude vs. Temperature (F)
+- Latitude vs. Humidity (%)
+- Latitude vs. Cloudiness (%)
+- Latitude vs. Wind Speed (m/s)
 
 ### Linear Regression Analysis of Each Relationship
 The second requirement involved computing the linear regression for each relationship. Plots were separated into Northern Hemisphere (i.e., greater than or equal to 0 degrees latitude) and Southern Hemisphere (i.e., less than 0 degrees latitude). Next, a series of scatter plots were created that included the linear regression line, the model's formula, and the r-values. Moreover, the following plots were generated:
-- Northern Hemisphere: Temperature vs. Latitude
-- Southern Hemisphere: Temperature vs. Latitude
-- Northern Hemisphere: Humidity vs. Latitude
-- Southern Hemisphere: Humidity vs. Latitude
-- Northern Hemisphere: Cloudiness vs. Latitude
-- Southern Hemisphere: Cloudiness vs. Latitude
-- Northern Hemisphere: Wind Speed vs. Latitude
-- Southern Hemisphere: Wind Speed vs. Latitude
+- Northern Hemisphere: Temperature (F) vs. Latitude
+- Southern Hemisphere: Temperature (F) vs. Latitude
+- Northern Hemisphere: Humidity (%) vs. Latitude
+- Southern Hemisphere: Humidity (%) vs. Latitude
+- Northern Hemisphere: Cloudiness (%) vs. Latitude
+- Southern Hemisphere: Cloudiness (%) vs. Latitude
+- Northern Hemisphere: Wind Speed (m/s) vs. Latitude
+- Southern Hemisphere: Wind Speed (m/s) vs. Latitude
 
 After each pair of plots, an explanation of what the linear regression was modelling, as well as any relationships/trends that were identified were provided in the Markdown language.  
 
