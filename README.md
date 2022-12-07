@@ -6,7 +6,6 @@ This challenge is associated with ```Module 6``` of **UofT's 2022-2023 Data Anal
 
 # Repository Structure and Breakdown
 The following contents may be found in this repository:
-> A folder titled ```Output Data``` that contains the output data from each analysis.
 
 > A folder titled ```VacationPy``` that contains the following files:
 > - A Jupiter notebook file named ```main_r2.ipynb``` that contains the complete analysis code;
@@ -17,6 +16,8 @@ The following contents may be found in this repository:
 > - A Jupiter notebook file named ```main_r1.ipynb``` that contains the complete analysis code;
 > - A Python file named ```main_r1.py``` that contains the complete analysis code; and
 > - A Jupiter notebook filed named ```WeatherPy.ipynb``` that contains the starter code provided.
+
+> A folder titled ```Output Data``` that contains the output data from each analysis.
 
 - A ```.gitignore``` file to ensure that the ```api_keys.py``` file that contains the API key is kept from being shared with the public;
 - A ```README.md``` file that contains a description of this project;
