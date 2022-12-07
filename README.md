@@ -17,7 +17,7 @@ The following contents may be found in this repository:
 > - A Python file named ```main_r1.py``` that contains the complete analysis code; and
 > - A Jupiter notebook filed named ```WeatherPy.ipynb``` that contains the starter code provided.
 
-> A folder titled ```output_data``` that contains the following files that were produced in Part 1:
+> A folder titled ```output_data``` that contains the following files that were produced in **Part 1**:
 > - A scatter plot of maximum temperature as a function of latitude titled ```Fig1.png```;
 > - A scatter plot of humidity as a function of latitude titled ```Fig2.png```;
 > - A scatter plot of cloudiness as a function of latitude titled ```Fig3.png```; 
